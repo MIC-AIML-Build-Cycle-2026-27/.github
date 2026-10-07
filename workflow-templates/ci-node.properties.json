@@ -1,0 +1,7 @@
+{
+  "name": "Build Cycle: Node.js CI",
+  "description": "Install, lint, test and build a Node.js / web project.",
+  "iconName": "octicon code",
+  "categories": ["JavaScript", "TypeScript", "Continuous integration"],
+  "filePatterns": ["package.json$"]
+}

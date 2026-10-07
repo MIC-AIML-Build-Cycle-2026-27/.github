@@ -1,0 +1,28 @@
+# Node.js CI: install, lint, test, build (each script runs only if defined in package.json).
+# If your code is in a subfolder (e.g. frontend/), set `working-directory` under defaults.run.
+name: Node.js CI
+
+on:
+  push:
+    branches: [$default-branch]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  node:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+      - name: Install dependencies
+        run: if [ -f package-lock.json ]; then npm ci; else npm install; fi
+      - run: npm run lint --if-present
+      - run: npm test --if-present
+      - run: npm run build --if-present

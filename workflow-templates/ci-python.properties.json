@@ -1,0 +1,7 @@
+{
+  "name": "Build Cycle: Python CI",
+  "description": "Lint with ruff and test with pytest.",
+  "iconName": "octicon code",
+  "categories": ["Python", "Continuous integration"],
+  "filePatterns": ["requirements.txt$", "pyproject.toml$", "setup.py$"]
+}

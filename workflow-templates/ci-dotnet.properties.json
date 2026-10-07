@@ -1,0 +1,7 @@
+{
+  "name": "Build Cycle: .NET CI",
+  "description": "Restore, build and test a C# / .NET project.",
+  "iconName": "octicon code",
+  "categories": ["C#", "Continuous integration"],
+  "filePatterns": [".sln$", ".csproj$"]
+}

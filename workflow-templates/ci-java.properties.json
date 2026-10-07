@@ -1,0 +1,7 @@
+{
+  "name": "Build Cycle: Java CI",
+  "description": "Build and test a Maven or Gradle project.",
+  "iconName": "octicon code",
+  "categories": ["Java", "Continuous integration"],
+  "filePatterns": ["pom.xml$", "build.gradle$", "build.gradle.kts$"]
+}
