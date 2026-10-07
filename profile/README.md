@@ -1,10 +1,10 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MIC-AIML-Build-Cycle-2026-27/.github/main/profile/assets/banner.jpg" alt="MIC AIML Build Cycle: Microsoft Innovation Club, AIML Department" width="100%">
+</p>
+
 <div align="center">
 
-# MIC AIML Build Cycle 2026-27
-
-**AIML Department · Microsoft Innovation Club**
-
-8 Teams · 8 Projects · 1 Build Cycle
+**MIC AIML Build Cycle 2026-27** · 8 Teams · 8 Projects · 1 Build Cycle
 
 `6 October 2026 → 30 January 2027`
 
